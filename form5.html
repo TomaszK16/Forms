@@ -1,0 +1,79 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Formularz 5</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="titleBox">
+            <div id="titleButton"><img src="3 lines.png" height="100%"></div>
+            <font id="titleText"><center>Formularze</center></font>
+        </div>
+        <div id="selectionBox">
+            <ul id="selectionText">
+                <a href="index.html" class="selectionTextProp"><li>Formularz 1</li></a>
+                <a href="form2.html" class="selectionTextProp"><li>Formularz 2</li></a>
+                <a href="form3.html" class="selectionTextProp"><li>Formularz 3</li></a>
+                <a href="form4.html" class="selectionTextProp"><li>Formularz 4</li></a>
+                <a href="form5.html" class="selectionTextProp"><li id="selectedText">Formularz 5</li></a>
+                <a href="form6.html" class="selectionTextProp"><li>Formularz 6</li></a>
+            </ul>
+        </div>
+        <div id="daLine"><div id="daLineContent"><center>Formularz V</center></div></div>
+        <form>
+            <div class="contentBoxWide">
+                <br><center><b>Dane osobowe:</b><br></center>
+                <div class="content3">
+                    <table>
+                        <tr>
+                            <td><b>Imię:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "Imię"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Nazwisko:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "Nazwisko"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Data urodzenia:&nbsp;&nbsp;</b></td>
+                            <td><input type = "date" name = "Data urodzenia"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Miejsce urodzenia:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "Nazwisko"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="contentBoxWide">
+                <br><center><b>Pozostałe informacje:</b><br></center>
+                <div class="content2">
+                    <table>
+                        <tr>
+                            <td><b>Wykształcenie:&nbsp;&nbsp;</b></td>
+                            <td>
+                                <input type = "radio" name="subject" value="Podstawowe">Podstawowe<br>
+                                <input type = "radio" name="subject" value="Średnie">Średnie<br>
+                                <input type = "radio" name="subject" value="Wyższe">Wyższe<br>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><b>Zawód wykonywany:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "Zawód wykonywany"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Dodatkowe umiejętności:&nbsp;&nbsp;</b></td><br>
+                            <td><textarea rows="10" cols = "20">Wpisz umiejętności (jeżeli takie posiadasz)</textarea></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <input type="submit" name="wyslij" value="Wyślij">&nbsp;&nbsp;
+                    <input type="reset" name="wyczysc" value="Wyczyść">
+                </center>
+            </div>
+        </form>
+    </body>
+</html>

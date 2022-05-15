@@ -1,0 +1,83 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Formularz 1</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="titleBox">
+            <div id="titleButton"><img src="3 lines.png" height="100%"></div>
+            <font id="titleText"><center>Formularze</center></font>
+        </div>
+        <div id="selectionBox">
+            <ul id="selectionText">
+                    <a href="index.html" class="selectionTextProp"><li  id="selectedText">Formularz 1</li></a>
+                    <a href="form2.html" class="selectionTextProp"><li>Formularz 2</li></a>
+                    <a href="form3.html" class="selectionTextProp"><li>Formularz 3</li></a>
+                    <a href="form4.html" class="selectionTextProp"><li>Formularz 4</li></a>
+                    <a href="form5.html" class="selectionTextProp"><li>Formularz 5</li></a>
+                    <a href="form6.html" class="selectionTextProp"><li>Formularz 6</li></a>
+            </ul>
+        </div>
+        <div id="daLine"><div id="daLineContent"><center>Formularz Kontaktowy</center></div></div>
+        <form>
+            <div class="contentBox">
+                <center>
+                    <b>Nazwisko</b><br>
+                    <input type = "text" name = "Nazwisko">
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <b>Imię</b><br>
+                    <input type = "text" name = "Imię">
+                </center>
+            </div>
+            <div class="contentBox">
+                <center><b>Wykształcenie</b><br></center>
+                <div class="content">
+                    <input type = "radio" name = "wykształcenie" value = "Podstawowe">Podstawowe<br>
+                    <input type = "radio" name = "wykształcenie" value = "Średnie">Średnie<br>
+                    <input type = "radio" name = "wykształcenie" value = "Wyższe">Wyższe<br>
+                </div>
+            </div>
+            <div class="contentBox">
+                <center><b>W jakim języku programujesz?</b><br></center>
+                <div class="content">
+                    <input type = "checkbox" name="programowanie" value = "C++">C++<br>
+                    <input type = "checkbox" name="programowanie" value = "JavaScript">JavaScript<br>
+                    <input type = "checkbox" name="programowanie" value = "PHP">PHP<br>
+                    <input type = "checkbox" name="programowanie" value = "Java">Java<br>
+                    <input type = "checkbox" name="programowanie" value = "Python">Python<br>
+                </div>
+            </div>
+            <div class="contentBoxWide">
+                <div class="contentWide">
+                    <input type = "checkbox" name="opcje" maxlength="1">Zgadzam się na przetwarzanie danych osobowych<br>
+                </div>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <b>Wiek:</b><br>
+                    <select name="Wiek">
+                        <option>0-17</option>
+                        <option>18-40</option>
+                        <option>41-60</option>
+                        <option>60+</option>
+                    </select>
+                </center>
+            </div>
+            <div class="contentBox">
+                <center><b>Uwagi:</b><br>
+                    <textarea rows="3" cells="20">Wpisz uwagi</textarea>
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <input type="submit" name="wyslij" value="Wyślij">&nbsp;&nbsp;
+                    <input type="reset" name="wyczysc" value="Wyczyść">
+                </center>
+            </div>
+        </form>
+    </body>
+</html>

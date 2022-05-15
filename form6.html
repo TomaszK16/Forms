@@ -1,0 +1,76 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Formularz 6</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="titleBox">
+            <div id="titleButton"><img src="3 lines.png" height="100%"></div>
+            <font id="titleText"><center>Formularze</center></font>
+        </div>
+        <div id="selectionBox">
+            <ul id="selectionText">
+                <a href="index.html" class="selectionTextProp"><li>Formularz 1</li></a>
+                <a href="form2.html" class="selectionTextProp"><li>Formularz 2</li></a>
+                <a href="form3.html" class="selectionTextProp"><li>Formularz 3</li></a>
+                <a href="form4.html" class="selectionTextProp"><li>Formularz 4</li></a>
+                <a href="form5.html" class="selectionTextProp"><li>Formularz 5</li></a>
+                <a href="form6.html" class="selectionTextProp"><li id="selectedText">Formularz 6</li></a>
+            </ul>
+        </div>
+        <div id="daLine"><div id="daLineContent"><center>Formularz VI</center></div></div>
+        <form class="medium">
+            <div class="contentBox">
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><b>Nazwisko:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "Nazwisko"></td>
+                        </tr>
+                        <tr>
+                            <td><b>Imię:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "Imię"></td>
+                        </tr>
+                        <tr>
+                            <td><b>PESEL:&nbsp;&nbsp;</b></td>
+                            <td><input type = "text" name = "PESEL"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="contentBox">
+                <div class="content">
+                    <input type = "checkbox" name="type" value="Polski">J. polski<br>
+                    <input type = "checkbox" name="type" value="Matematyka">Matematyka<br>
+                    <input type = "checkbox" name="type" value="Fizyka">Fizyka<br>
+                </div>
+            </div>
+            <div class="contentBox">
+                <center><b>Uwagi:</b><br>
+                    <textarea rows="3" cols="30">Wpisz uwagi</textarea>
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <select class="Dzień tygodnia" size="1">
+                        <option value="Poniedziałek"> Poniedziałek</option>
+                        <option value="Wtorek"> Wtorek</option>
+                        <option value="Środa"> Środa</option>
+                        <option value="Czwartek"> Czwartek</option>
+                        <option value="Piątek"> Piątek</option>
+                        <option value="Sobota"> Sobota</option>
+                        <option value="Niedziela"> Niedziela</option>
+                    </select>
+                </center>
+            </div>
+           
+            <div class="contentBox">
+                <center>
+                    <input type="submit" name="wyslij" value="Wyślij">&nbsp;&nbsp;
+                    <input type="reset" name="wyczysc" value="Wyczyść">
+                </center>
+            </div>
+        </form>
+    </body>
+</html>

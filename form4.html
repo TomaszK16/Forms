@@ -1,0 +1,64 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Formularz 4</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div id="titleBox">
+            <div id="titleButton"><img src="3 lines.png" height="100%"></div>
+            <font id="titleText"><center>Formularze</center></font>
+        </div>
+        <div id="selectionBox">
+            <ul id="selectionText">
+                <a href="index.html" class="selectionTextProp"><li>Formularz 1</li></a>
+                <a href="form2.html" class="selectionTextProp"><li>Formularz 2</li></a>
+                <a href="form3.html" class="selectionTextProp"><li>Formularz 3</li></a>
+                <a href="form4.html" class="selectionTextProp"><li id="selectedText">Formularz 4</li></a>
+                <a href="form5.html" class="selectionTextProp"><li>Formularz 5</li></a>
+                <a href="form6.html" class="selectionTextProp"><li>Formularz 6</li></a>
+            </ul>
+        </div>
+        <div id="daLine"><div id="daLineContent"><center>Formularz IV</center></div></div>
+        <form class="medium">
+            <div class="contentBox">
+                <center>
+                    <b>Adres email:</b><br>
+                    <input type = "email" placeholder="Wpisz adres email">
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <b>Szukaj:</b><br>
+                    <input type = "search" placeholder="Wpisz szukany tekst">
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <b>Wybierz wartość od 1 do 5:</b><br>
+                    <input type="range" min="1" max="5" value="3"><br>
+                    <b>lub wpisz wartość:</b><br>
+                    <input type="number" min="1" max="5" value="3">  
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <b>Wybierz kolor:</b><br>
+                    <input type="color">
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <b>Wybierz datę urodzenia:</b><br>
+                    <input type="date" max="2021-03-22">
+                </center>
+            </div>
+            <div class="contentBox">
+                <center>
+                    <input type="submit" name="wyslij" value="Wyślij">&nbsp;&nbsp;
+                    <input type="reset" name="wyczysc" value="Wyczyść">
+                </center>
+            </div>
+        </form>
+    </body>
+</html>
